@@ -74,11 +74,11 @@ section {
 /* HEADER */
 
 .header {
-    min-height: 100vh;
+    min-height: 400px;
     display: flex;
     margin: 0;
     padding: 0 130px 0;
-	background-image: url('images/background_img.jpg');
+    background-image: url("../images/bg_img.jpg");
 	background-position: center center;
     background-size: cover;
 
