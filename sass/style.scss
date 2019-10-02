@@ -194,6 +194,36 @@ section {
 }
 
 
+/* FOOTER */
+
+
+footer {
+    text-align: center;
+    padding: 15px 130px;
+
+    ul {
+        margin: 10px;
+        padding: 0 15px;
+            ul li {
+                display: inline-block;
+                font-size: 0;
+                i {
+                font-size: 20px;
+                background-color: $color-text;
+                width: 43px;
+                height: 43px;
+                line-height: 43px;
+                margin: 0 1px;
+                color: $color-light;
+                border-radius: 50%;
+                border: none;
+                padding: 10px;
+                }
+            }
+        }
+    }
+
+
 
 
    
