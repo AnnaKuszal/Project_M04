@@ -101,30 +101,23 @@ section {
     width: 100%;
     padding-top: 25px;
 
-    .navigation a {
+    a {
     text-decoration: none;
     font-family: 'Work Sans', sans-serif; /* $font-header; */
     color: #ffffff; /* $color-light; */
     }
 
-    .navigation ul {
-        list-style-type: none;
-        display: inline-block;
-        padding-right: 50px;
-
-        .navigation ul li {
+        ul {
+            list-style-type: none;
             display: inline-block;
-            margin-right: 34px;
+            padding-right: 50px;
+
+            li {
+                display: inline-block;
+                margin-right: 34px;
+            }
         }
-    }
 }
-
-
-
-
-
-
-
 
 .splash-inner {
     display: flex;
@@ -139,23 +132,24 @@ section {
     color: #ffffff; /* $color-light; */
     justify-content: space-between;
     align-content: center;
+
+        .splash-inner h1 {
+            font-family: 'Work Sans', sans-serif; /* $font-header; */
+            font-size: 74px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .splash-inner h3 {
+            font-family: 'Noto Serif', serif;  /* $font-text; */
+            font-size: 38px;
+            font-weight: 400;
+            font-style: italic;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
 }
 
-.splash-inner h1 {
-    font-family: 'Work Sans', sans-serif; /* $font-header; */
-    font-size: 74px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.splash-inner h3 {
-    font-family: 'Noto Serif', serif;  /* $font-text; */
-    font-size: 38px;
-    font-weight: 400;
-    font-style: italic;
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
 .btn {
 	display: inline-block;
